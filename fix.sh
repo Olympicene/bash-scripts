@@ -1,0 +1,1 @@
+ filebot -rename -r "/mnt/nfs_share/Unsorted" --db TheTVDB -non-strict --action duplicate --output /mnt/nfs_share/ --format "{ db.TheTVDB.plex }" --q "Stardust Crusaders" -exec chmod -R 777 "{output}"
